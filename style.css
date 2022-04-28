@@ -362,6 +362,14 @@
     border-radius: 3rem;
 }
 
+.hover-custom {
+  transition: .4s;
+}
+
+.hover-custom:hover {
+  color: #EF9A9A;
+}
+
 .col6-costum {
   background-image: url('images/bg-pattern-desktop.svg');
   background-repeat: no-repeat;
