@@ -12,17 +12,16 @@
 
     .woman-costum {
         position: relative;
-        left: 0;
-        /* top: 0; */
+        left: -55px;
     }
     
     .box-costom {
         position: absolute;
         top: 10rem;
-        left: -5rem;
+        left: -11rem;
         z-index: 9999;
         padding-left: 5rem;
-        width: 12rem;
+        width: 15rem;
       }
 }
 
