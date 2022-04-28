@@ -1,0 +1,84 @@
+@media only screen and (max-width: 1400px) {
+
+    .row-costum {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col6-costum {
+        position: relative;
+    }
+
+    .woman-costum {
+        position: relative;
+        left: 0;
+        /* top: 0; */
+    }
+    
+    .box-costom {
+        position: absolute;
+        top: 10rem;
+        left: -5rem;
+        z-index: 9999;
+        padding-left: 5rem;
+        width: 12rem;
+      }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .col-lg-6-costum {
+        padding-left: 9rem;
+    }
+
+    .bg-white {
+        width: 40rem;
+        height: 60rem;
+        background-color: #fff;
+        margin: 15rem auto;
+        border: none;
+        border-radius: 3rem;
+    }
+
+    .woman-costum {
+        position: relative;
+        padding-left: 4rem;
+    }
+
+      .box-costom {
+        position: absolute;
+        left: -34px;
+        top: 10rem;
+      }
+}
+    
+    @media only screen and (max-width: 768px) {
+        .col6-costum {
+            background-image: url('images/bg-pattern-desktop.svg');
+            background-repeat: no-repeat;
+            background-position-y: -10rem;
+            background-position-x: 6rem;
+            background-size: 17rem;
+          }
+        .bg-white {
+            width: 30rem;
+            height: 60rem;
+            background-color: #fff;
+            border: none;
+            border-radius: 3rem;
+            position: relative;
+}
+
+        .woman-costum {
+            width: 16rem;
+            top: -153px;
+            left: 4rem;
+        }
+        
+        .box-costom {
+            width: 11rem;
+            top: -104px;
+            left: 3rem;
+        }
+}
